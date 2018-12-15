@@ -16,9 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('/a', function () {
-    echo 'a';
+    return 'a';
 });
 
 Route::get('/b', function () {
-    echo 'b';
+    return 'b';
 });

@@ -11,22 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/a', function () {
-    return 'a';
-});
-
-Route::get('/b', function () {
-    return 'b';
-});
-
-Route::get('c', function () {
-    return view('welcome');
-});
-
-Route::get('/d', function () {
     return view('welcome');
 });
